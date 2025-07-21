@@ -1,0 +1,11 @@
+span {
+    color :blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.about-container {
+    text-align: center;
+    margin: auto;
+}

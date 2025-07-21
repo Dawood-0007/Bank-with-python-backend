@@ -1,0 +1,46 @@
+.navbar {
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-ul li {
+    color: black !important;
+}
+
+.nav-ul li:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.logout-button {
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    transform: translateY(-3px);
+}
+
+.logout-button:hover {
+    background: white;
+    font-size: medium;
+    color: black;
+    transition: 0.2s;
+}

@@ -1,0 +1,34 @@
+.second-container {
+  display: flex;
+  padding: 30px;
+  width: 90vw;
+  margin: 10px auto 60px auto;
+  height: 30vh;
+}
+
+.first-box {
+  flex: 1;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.second-box {
+  flex: 2;
+  margin-left: 10px;
+  border-radius: 5px;
+  height: fit-content;
+  display: flex;
+}
+
+.sub-box {
+    padding: 35px;
+    height: 168px;
+    flex: 1;
+}
+.detail-box {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    height: 168px;
+    border: 2px solid black;
+}

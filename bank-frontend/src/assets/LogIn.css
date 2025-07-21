@@ -1,0 +1,65 @@
+.login-page {
+  background: url('/background.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #74797eb6;
+}
+
+.login-title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-login {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #c5d1ddb6;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.login-btn:hover {
+  background-color: #c5d1ddb6;
+  font-size: 1em;
+}
+
+.sample-users {
+  margin-left: 20px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
