@@ -52,6 +52,7 @@
 
 .login-btn:hover {
   background-color: #c5d1ddb6;
+  transform: translateX(2px);
   font-size: 1em;
 }
 
@@ -62,4 +63,18 @@
   padding: 10px;
   border-radius: 10px;
   text-align: left;
+}
+
+@media screen and (max-width: 780px) {
+  .login-page {
+    flex-direction: column;
+    
+  }
+  .login-box {
+    width: 70vw;
+    margin: auto;
+  }
+  .sample-users {
+    margin-bottom: 10px;
+  }
 }

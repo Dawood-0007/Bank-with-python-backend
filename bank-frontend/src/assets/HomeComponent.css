@@ -27,8 +27,44 @@
     flex: 1;
 }
 .detail-box {
-    font-size: 1rem !important;
+    font-size: 1rem;
     font-weight: 700 !important;
     height: 168px;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 780px) {
+  .second-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1px 20px;
+    padding: 3px;
+  }
+  .first-box {
+    padding: 15px;
+  }
+
+  .second-box {
+    width: 90vw;
+    margin-left: 0px;
+  }
+  .sub-box {
+    width: 14vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .sub-box h3 {
+    font-size: 20px;
+  }
+  .sub-box input {
+    width: 20vw;
+  }
+  .sub-box button {
+    font-size: 10px;
+    width: 20vw;
+  }
+  .detail-box {
+    font-size: 12px;
+    padding: 35px 2px;
+  }
 }

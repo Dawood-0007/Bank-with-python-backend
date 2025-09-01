@@ -81,3 +81,23 @@
 hr {
     margin: 0px;
 }
+
+@media  screen and (max-width: 780px) {
+    .main-container {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 3px;
+        gap: 5px;
+    }
+    .main-box {
+        width: 90vw;
+    }
+    .side-box {
+        height: 30vh;
+        width: 87vw;
+    }
+    .side-box1 {
+        margin-top: 20px;
+    }
+}
