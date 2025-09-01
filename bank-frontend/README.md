@@ -1,12 +1,23 @@
-# React + Vite
+# Bank Frontend  
+A Bank frontend built on react with simple navigation and use.  
+  
+You can visit react documentation (here)[https://react.dev/learn]  
+  
+## How to setup Code
+In order to get started with code, firstly you have to clone this project and then for python firt create virtual env (recommended) by first cd in folder and then  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`python -m venv venv`  
+`venv\Scripts\activate.ps1` (for Windows)  
+`pip install -r requirements.txt`  
+`python main.py`  
 
-Currently, two official plugins are available:
+This will make your backend run on port 5000 and for frontend, firstly open another terminal make sure to cd over to bank-frontend folder then run  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm install`  
+`npm run dev`
 
-## Expanding the ESLint configuration
+It will run your frontend on default port.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Your Contribution
+Your Contribution can really help us in making these projects a better real world product.  
+Feel free to contribute!
